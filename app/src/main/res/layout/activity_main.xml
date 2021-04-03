@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bdFrId"
+        android:layout_marginTop="20sp"
+        android:onClick="btFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BD Fragment"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/inFrId"
+        android:layout_marginTop="20sp"
+        android:onClick="btFunction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN Fragment"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.multiple_activity.BlankFragment"
+        android:id="@+id/myFragId"/>
+
+
+
+</LinearLayout>
